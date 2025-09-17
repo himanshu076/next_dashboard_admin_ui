@@ -70,7 +70,7 @@ export const menuItems = [
                 href: "/profile",
             },
             {
-                icon: "settings.png",
+                icon: "setting.png",
                 lable: "Setting",
                 href: "/setting",
             },
