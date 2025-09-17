@@ -1,5 +1,50 @@
 
 
+export const IMAGES = {
+    icons: {
+        announcement: "/announcement.png",
+        assignment: "/assignment.png",
+        attendance: "/attendance.png",
+        avatar: "/avatar.png",
+        blood: "/blood.png",
+        calendar: "/calendar.png",
+        class: "/class.png",
+        close: "/close.png",
+        create: "/create.png",
+        date: "/date.png",
+        delete: "/delete.png",
+        exam: "/exam.png",
+        filter: "/filter.png",
+        finance: "/finance.png",
+        home: "/home.png",
+        lesson: "/lesson.png",
+        logo: "/logo.png",
+        logout: "/logout.png",
+        mail: "/mail.png",
+        maleFemale: "/maleFemale.png",
+        message: "/message.png",
+        more: "/more.png",
+        moreDark: "/moreDark.png",
+        parent: "/parent.png",
+        phone: "/phone.png",
+        profile: "/profile.png",
+        result: "/result.png",
+        search: "/search.png",
+        setting: "/setting.png",
+        singleAttendance: "/singleAttendance.png",
+        singleBranch: "/singleBranch.png",
+        singleClass: "/singleClass.png",
+        singleLesson: "/singleLesson.png",
+        sort: "/sort.png",
+        student: "/student.png",
+        subject: "/subject.png",
+        teacher: "/teacher.png",
+        update: "/update.png",
+        upload: "/upload.png",
+        view: "/view.png",
+    }
+}
+
 export const menuItems = [
     {
         title: "MENU",
