@@ -5,11 +5,19 @@
   --foreground: #171717;
 }
 
-@theme inline {
+@theme {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  
+  /* Custom colors */
+  --color-lamaSky: #C3EBFA;
+  --color-lamaSkyLight: #EDF9FD;
+  --color-lamaPurple: #CFCEFF;
+  --color-lamaPurpleLight: #F1F0FF;
+  --color-lamaYellow: #FAE27C;
+  --color-lamaYellowLight: #FEFCEB;
 }
 
 @media (prefers-color-scheme: dark) {
