@@ -173,3 +173,88 @@ export const attendanceChartData = [
     absent: 55,
   },
 ];
+
+export const financeChartData = [
+  {
+    name: 'Jan',
+    income: 4000,
+    expence: 2400,
+  },
+  {
+    name: 'Feb',
+    income: 3000,
+    expence: 1398,
+  },
+  {
+    name: 'Mar',
+    income: 2000,
+    expence: 9800,
+  },
+  {
+    name: 'Apr',
+    income: 2780,
+    expence: 3908,
+  },
+  {
+    name: 'May',
+    income: 1890,
+    expence: 4800,
+  },
+  {
+    name: 'June',
+    income: 2390,
+    expence: 3800,
+  },
+  {
+    name: 'July',
+    income: 3490,
+    expence: 4300,
+  },
+  {
+    name: 'Aug',
+    income: 3490,
+    expence: 4300,
+  },
+  {
+    name: 'Sept',
+    income: 3490,
+    expence: 4300,
+  },
+  {
+    name: 'Oct',
+    income: 3490,
+    expence: 4300,
+  },
+  {
+    name: 'Nov',
+    income: 3490,
+    expence: 4300,
+  },
+  {
+    name: 'Dec',
+    income: 3490,
+    expence: 4300,
+  },
+];
+
+// TEMPORARY
+export const calendarEvents = [
+  {
+    id: 1,
+    title: "Lorem Ipsum is simply",
+    time: "12:00 PM - 2:00 PM",
+    description: "It was popularised in the 1960s",
+  },
+  {
+    id: 12,
+    title: "Contrary to popular belief",
+    time: "12:00 PM - 2:00 PM",
+    description: "Lorem Ipsum is not simply random text.",
+  },
+  {
+    id: 3,
+    title: "de Finibus Bonorum et Malorum",
+    time: "12:00 PM - 2:00 PM",
+    description: "very popular during the Renaissance.",
+  },
+];
