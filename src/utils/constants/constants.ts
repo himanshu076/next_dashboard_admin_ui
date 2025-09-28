@@ -45,6 +45,8 @@ export const IMAGES = {
     }
 }
 
+export const role = "admin";
+
 export const menuItems = [
     {
         title: "MENU",
@@ -53,56 +55,79 @@ export const menuItems = [
                 icon: "home.png",
                 lable: "Home",
                 href: "/",
+                visible: ["admin", "teacher", "student", "parent"],
             },
             {
                 icon: "teacher.png",
                 lable: "Teachers",
                 href: "/teachers",
+                visible: ["admin", "teacher"],
             },
             {
                 icon: "student.png",
                 lable: "Students",
                 href: "/students",
+                visible: ["admin", "teacher"],
             },
             {
                 icon: "parent.png",
                 lable: "Parents",
                 href: "/parents",
+                visible: ["admin", "teacher"],
+            },
+            {
+                icon: "subject.png",
+                lable: "Subjects",
+                href: "/list/subjects",
+                visible: ["admin"],
             },
             {
                 icon: "class.png",
                 lable: "Classes",
                 href: "/classes",
-            },
+                visible: ["admin", "teacher"],
+              },
             {
                 icon: "lesson.png",
                 lable: "Lessons",
-                href: "/lessons",
+                href: "/list/lessons",
+                visible: ["admin", "teacher"],
             },
             {
                 icon: "exam.png",
                 lable: "Exams",
-                href: "/exams",
+                href: "/list/exams",
+                visible: ["admin", "teacher", "student", "parent"],
             },
             {
                 icon: "assignment.png",
                 lable: "Assignments",
                 href: "/assignments",
+                visible: ["admin", "teacher", "student", "parent"],
+            },
+            {
+                icon: "result.png",
+                lable: "Results",
+                href: "/list/results",
+                visible: ["admin", "teacher", "student", "parent"],
             },
             {
                 icon: "attendance.png",
                 lable: "Attendance",
                 href: "/attendance",
+                visible: ["admin", "teacher", "student", "parent"],
             },
             {
                 icon: "calendar.png",
                 lable: "Calendar",
                 href: "/calendar",
+                visible: ["admin", "teacher", "student", "parent"],
             },
             {
                 icon: "announcement.png",
                 lable: "Announcements",
                 href: "/announcements",
+                visible: ["admin", "teacher", "student", "parent"],
             }
         ]
     },
@@ -113,16 +138,19 @@ export const menuItems = [
                 icon: "profile.png",
                 lable: "Profile",
                 href: "/profile",
+                visible: ["admin", "teacher", "student", "parent"],
             },
             {
                 icon: "setting.png",
                 lable: "Setting",
                 href: "/setting",
+                visible: ["admin", "teacher", "student", "parent"],
             },
             {
                 icon: "logout.png",
                 lable: "Logout",
                 href: "/logout",
+                visible: ["admin", "teacher", "student", "parent"],
             }
         ]
     }
